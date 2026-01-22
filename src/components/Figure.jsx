@@ -34,6 +34,7 @@ export const Wrapper = styled.figure`
   border: 1px solid;
   margin-bottom: 32px;
   margin-inline: 32px;
+  width: min-content;
 
   figcaption {
     text-align: center;
