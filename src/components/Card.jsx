@@ -8,11 +8,12 @@ function Card() {
         striking anatomical features are the powerful webbed feet used to swim,
         and their seal-like abilities holding breath underwater.
       </p>
-      <img
-        alt="A cute otter in water"
-        src="https://courses.joshwcomeau.com/cfj-mats/otter.jpg"
-      />
-
+      <ImageWrapper>
+        <img
+          alt="A cute otter in water"
+          src="https://courses.joshwcomeau.com/cfj-mats/otter.jpg"
+        />
+      </ImageWrapper>
       <p>
         More importantly, otters are glorious water dogs, playful and curious.
         The otter, no other, is the best animal.
@@ -31,6 +32,10 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
+`;
+
+const ImageWrapper = styled.div`
+  margin-inline: -32px;
 `;
 
 export default Card;
