@@ -20,7 +20,6 @@ const Header = styled.header`
 
 const Main = styled.main`
   position: relative;
-  z-index: 1;
   padding: 32px;
 `;
 
