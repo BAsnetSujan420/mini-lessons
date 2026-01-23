@@ -7,6 +7,7 @@ import Tooltip from "./components/Tooltip";
 import Pricing from "./components/PricingPage";
 import Decorative from "./components/Decorative";
 import GalleryScroll from "./components/GalleryScroll";
+import StickyHeader from "./components/StickyHeader";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <Tooltip /> */}
       {/* <Pricing /> */}
       {/* <Decorative /> */}
-      <GalleryScroll />
+      {/* <GalleryScroll /> */}
+      <StickyHeader />
     </>
   );
 }
