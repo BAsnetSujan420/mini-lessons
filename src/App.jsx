@@ -3,6 +3,7 @@ import BorderedCard from "./components/BorderedCard";
 import Card from "./components/Card";
 import Figure from "./components/Figure";
 import ProductDetail from "./components/ProductDetail";
+import Tooltip from "./components/Tooltip";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <Card /> */}
       {/* <Figure /> */}
       {/* <BorderedCard /> */}
-      <ProductDetail />
+      {/* <ProductDetail /> */}
+      <Tooltip />
     </>
   );
 }
