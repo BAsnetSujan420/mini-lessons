@@ -6,6 +6,7 @@ import ProductDetail from "./components/ProductDetail";
 import Tooltip from "./components/Tooltip";
 import Pricing from "./components/PricingPage";
 import Decorative from "./components/Decorative";
+import GalleryScroll from "./components/GalleryScroll";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <ProductDetail /> */}
       {/* <Tooltip /> */}
       {/* <Pricing /> */}
-      <Decorative />
+      {/* <Decorative /> */}
+      <GalleryScroll />
     </>
   );
 }
