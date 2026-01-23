@@ -67,6 +67,7 @@ const Flag = styled.div`
   background: hsl(50deg 95% 85%);
   box-shadow: 0px 1px 2px hsl(50deg 45% 45% / 0.2);
   margin-bottom: 12px;
+  border-radius: 4px 1rem 1rem 4px;
 `;
 
 const Title = styled.h2`
