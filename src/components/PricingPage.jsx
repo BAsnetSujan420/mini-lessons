@@ -25,6 +25,7 @@ const Pricing = styled.section`
   padding-top: 80px;
   color: black;
   min-height: 1000px;
+  isolation: isolate;
 `;
 
 const Card = styled.article`
