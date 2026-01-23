@@ -5,6 +5,7 @@ const Wrapper = styled.div`
   overflow: auto;
   border: 3px solid;
   padding: 16px;
+  white-space: nowrap;
 `;
 
 const CatImage = styled.img`
