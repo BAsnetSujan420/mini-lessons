@@ -5,6 +5,7 @@ import Figure from "./components/Figure";
 import ProductDetail from "./components/ProductDetail";
 import Tooltip from "./components/Tooltip";
 import Pricing from "./components/PricingPage";
+import Decorative from "./components/Decorative";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <BorderedCard /> */}
       {/* <ProductDetail /> */}
       {/* <Tooltip /> */}
-      <Pricing />
+      {/* <Pricing /> */}
+      <Decorative />
     </>
   );
 }
