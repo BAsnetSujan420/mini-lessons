@@ -7,13 +7,14 @@ const Page = styled.div`
 `;
 
 const Header = styled.header`
-  height: 50px;
+  height: 66px;
   background: slateblue;
   color: white;
   opacity: 0.96;
 
   position: sticky;
-  top: 0;
+  top: -16px;
+  padding-top: 16px;
 `;
 
 const NavList = styled.ul`
