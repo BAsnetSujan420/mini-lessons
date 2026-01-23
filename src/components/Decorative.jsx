@@ -20,8 +20,7 @@ const Wrapper = styled.div`
   position: relative;
   height: 150px;
 
-  overflow-x: hidden;
-  overflow-y: visible;
+  overflow-x: clip;
 
   background: pink;
 `;
